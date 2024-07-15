@@ -3,7 +3,7 @@ name: Trigger Tata Workflow
 on:
   push:
     branches:
-      - main  # You can specify the branches you want this action to trigger on
+      - master  # You can specify the branches you want this action to trigger on
   workflow_dispatch:
     inputs:
       param1:
