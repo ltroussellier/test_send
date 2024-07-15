@@ -1,0 +1,7 @@
+
+{
+  "ref": "main",
+  "inputs": {
+    "param1": "value from toto"
+  }
+}
