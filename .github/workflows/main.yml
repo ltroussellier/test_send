@@ -4,7 +4,12 @@ on:
   push:
     branches:
       - main  # You can specify the branches you want this action to trigger on
-
+  workflow_dispatch:
+    inputs:
+      param1:
+        description: 'A parameter for the workflow'
+        required: true
+        default: 'value from toto'
 jobs:
   trigger-tata:
     runs-on: ubuntu-latest
